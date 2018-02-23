@@ -1,0 +1,43 @@
+ 
+
+body {
+
+    height: 100%; 
+    width: 100%; 
+    background-image: url('https://s26.postimg.org/8zwrpv6yh/precious-1199183_1280.jpg'); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 65px;
+
+} 
+h2, h3{
+    color:rgb(151, 247, 7);
+}
+
+p {
+    font-size: 18px;
+    color: rgb(151, 247, 7);
+}
+
+.row{
+    margin: 50px 20px 50px 20px;
+}
+
+.col-md-6 {
+    padding: 20px 15px 20px 15px;
+}
+.container {
+    margin: 50px 100px 50px 100px;
+}
+
+.btn {
+    background-color: transparent;
+    margin: 0px 15px 0px 15px;
+}
+
+
