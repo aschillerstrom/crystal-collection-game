@@ -144,6 +144,4 @@ function loss (){
 
 
 
-
-
 }) 

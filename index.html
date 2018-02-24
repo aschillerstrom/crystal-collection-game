@@ -7,7 +7,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="style.css">
 
-
+    <title>Crystal_Collector</title>
      <!--background image -->
 <body>
    
@@ -51,6 +51,13 @@
             </div>
         </div>
 </div>
+<!--- modal
+
+<div id='overlay'></div>
+<div id='modal'>
+  <div id='content'></div>
+  <a href='#' id='close'>close</a>
+</div>  -->
 </body>
 
 <script src="game.js"></script>
@@ -60,12 +67,13 @@
 
 <!--Psuedocode
     Create random number generator for sum number for the game
+    Create random number generator for 4 gem buttons
+    Create variable for game total (player tries to match the sum number)
+    
+    When player clicks on gem, the game total will increase by that gem's value
+            - continues until values of clicked gems either matches the sum number (winner) or until it is greater than the sum number
+            (loser).  Display  winner or loser picture./alert
 
-    Create 4 buttons (gems).  Each button will randomly generate a number value for the game
+    Game automatically restarts with new values when alert is clicked   - can I make an attractive alert?????
 
-    Add values of clicked gems until it matches the sum number (winner) or until it is greater than the sum number
-    (loser).  Display  winner or loser picture.
-
-    Diplay current total of jem values
-
-    Tally wins and losses
+    Tally wins and losses  -->
