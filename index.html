@@ -18,7 +18,7 @@
         <h1>Crystal Collector</h1>
     </div>
     <div class = "row">  
-        <div class = "col-md-6">
+        <div class = "col-md-5">
             <p>You will be given a random number at the start of the game that you will want to match.</p>
             <p>There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score. </p>
             <p>You win the game by matching your total score to the random number.  </p>
@@ -26,20 +26,30 @@
             <p>You cannot view the value of each gem but the value will remain the same throughout the game.</p>  
             <p>Each time when the game starts, the game will change the values of each crystal. </p>
         </div>
-        <div class = "col-md-6">
-            <h2 id = "sumNumber">Number you are trying to match:  <span id = "gameNumber"></h2>
-            <h2 id = "total">Total so far:  <span id= "gemsTotal"></span></h2>
+        <div class = "col-md-2"></div>
+        <div class = "col-md-5">
+            <h2>Number you are trying to match:  <span id = "gameNumber"></h2>
+            <h2>Total so far:  <span id= "gemsTotal"></span></h2>
             <h3 id = "gemsCollected">Your Crystals:</h3>
+            <h3>Total wins: <span id = "wins"></span></h3>
+            <h3>Total losses: <span id = "losses"></span></h3>
         </div>
         
       </div>
 
 <!-- buttons for jewels-->
-<button id="buttonBlue" class="btn btn-outline-primary number" ><img src="https://s26.postimg.org/q2zjlsnrt/vectorsapphire.png" style = "height: 80px; width: 80px"></button>
-<button id="buttonGreen" class="btn btn-outline-primary number" ><img src = "https://s26.postimg.org/lh3fdbrx5/vectoremerald.png" style = "height: 80px; width: 80px"></button>
-<button id="buttonRed" class="btn btn-outline-primary number" ><img src="https://s26.postimg.org/5vm3tl5qx/vectorruby.png" style = "height: 80px; width: 80px"></button>
-<button id="buttonYellow" class="btn btn-outline-primary number" ><img src = "https://s26.postimg.org/txyca8cah/yellowgem.png" style = "height: 80px; width: 80px"></button>
-
+        <div>
+            <div class = "row">
+            <div class = "col-md-3"></div>
+            <div class = "col-md-8">
+            <button id="buttonBlue" class="btn btn-outline-primary number" ><img src="https://s26.postimg.org/q2zjlsnrt/vectorsapphire.png" style = "height: 80px; width: 80px"></button>
+            <button id="buttonGreen" class="btn btn-outline-primary number" ><img src = "https://s26.postimg.org/lh3fdbrx5/vectoremerald.png" style = "height: 80px; width: 80px"></button>
+            <button id="buttonRed" class="btn btn-outline-primary number" ><img src="https://s26.postimg.org/5vm3tl5qx/vectorruby.png" style = "height: 80px; width: 80px"></button>
+            <button id="buttonYellow" class="btn btn-outline-primary number" ><img src = "https://s26.postimg.org/txyca8cah/yellowgem.png" style = "height: 80px; width: 80px"></button>
+                </div>
+            <div class = "col-md-1"></div>
+            </div>
+        </div>
 </div>
 </body>
 

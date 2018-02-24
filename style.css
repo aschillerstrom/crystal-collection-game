@@ -4,24 +4,24 @@ body {
 
     height: 100%; 
     width: 100%; 
-    background-image: url('https://s26.postimg.org/8zwrpv6yh/precious-1199183_1280.jpg'); 
+    background-image: url("https://s26.postimg.org/k78vj6f6x/loopable-crystal-background_bdgkfadpl_thumbnail-small01.jpg"); 
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
 h1 {
-    color: white;
+    color: #28f012;
     text-align: center;
     font-size: 65px;
 
 } 
 h2, h3{
-    color:rgb(151, 247, 7);
+    color:#28f012;
 }
 
 p {
     font-size: 18px;
-    color: rgb(151, 247, 7);
+    color: #28f012;
 }
 
 .row{
@@ -39,5 +39,6 @@ p {
     background-color: transparent;
     margin: 0px 15px 0px 15px;
 }
+
 
 
